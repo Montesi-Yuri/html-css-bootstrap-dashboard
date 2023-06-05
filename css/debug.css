@@ -6,5 +6,11 @@ DEBUG
     background-color: aquamarine;
 }
 
+.debug aside{
+    background-color: lightsalmon;
+}
 
+.debug main > div{
+    background-color: lightgreen;
+}
 
