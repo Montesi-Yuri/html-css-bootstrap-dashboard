@@ -45,6 +45,7 @@ aside > div > div a:hover{
 
 .icon-sizing{
     width: 20px;
+    height: 20px;
 }
 
 .side-custom-bg{
@@ -56,4 +57,15 @@ aside > div > div a:hover{
 
 .bg-blue-custom{
     background-color: #165BBA;
+}
+
+.custom-orange-badge-color{
+    background-color: #F26551;
+}
+.smaller-font-size{
+    font-size: 14px;
+}
+
+.custom-white-bg{
+    background-color: #F7F7F7;
 }
