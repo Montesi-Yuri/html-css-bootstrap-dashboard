@@ -10,3 +10,10 @@ GENERAL
     height: calc(100vh - 70px);
 }
 
+.big-logo-fixed-height{
+    height: 25px;
+}
+
+.small-logo-fixed-height{
+    height: 40px;
+}
