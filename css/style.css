@@ -14,6 +14,10 @@ a{
     height: calc(100vh - 70px);
 }
 
+/*
+    HEADER
+*/
+
 .big-logo-fixed-height{
     height: 25px;
 }
@@ -21,6 +25,11 @@ a{
 .small-logo-fixed-height{
     height: 40px;
 }
+
+
+/* 
+    MAIN
+*/
 
 aside ul li:hover{
     opacity: 0.7;
@@ -43,4 +52,8 @@ aside > div > div a:hover{
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #12293E;
+}
+
+.bg-blue-custom{
+    background-color: #165BBA;
 }
