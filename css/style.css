@@ -6,6 +6,10 @@ GENERAL
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+}
+
 .max-hg-wo-h{
     height: calc(100vh - 70px);
 }
@@ -16,4 +20,27 @@ GENERAL
 
 .small-logo-fixed-height{
     height: 40px;
+}
+
+aside ul li:hover{
+    opacity: 0.7;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+}
+
+aside > div > div a:hover{
+    opacity: 0.7;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+}
+
+.icon-sizing{
+    width: 20px;
+}
+
+.side-custom-bg{
+    background-image: url(../img/sidebar-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #12293E;
 }
