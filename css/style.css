@@ -6,7 +6,7 @@ GENERAL
     list-style: none;
 }
 
-.max-hg{
+.max-hg-wo-h{
     height: calc(100vh - 70px);
 }
 

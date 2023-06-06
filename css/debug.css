@@ -2,7 +2,7 @@
 DEBUG
 */
 
-.debug header{
+.debug > header{
     background-color: aquamarine;
 }
 
@@ -14,3 +14,22 @@ DEBUG
     background-color: lightgreen;
 }
 
+.debug main header{
+    background-color: lightblue;
+}
+
+.debug main div.row .col-lg-8{
+    background-color: lightpink;
+}
+
+.debug main div.row .col-lg-8 div{
+    background-color: orange;
+}
+
+.debug main div.row .col-lg-4{
+    background-color: lightgrey;
+}
+
+.debug main div.row .col-lg-4 div{
+    background-color: rosybrown;
+}
