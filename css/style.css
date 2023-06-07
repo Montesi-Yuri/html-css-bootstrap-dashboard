@@ -69,3 +69,14 @@ aside > div > div a:hover{
 .custom-white-bg{
     background-color: #F7F7F7;
 }
+
+/* 
+    RESPONSIVE
+*/
+
+@media screen and (min-width: 768px) {
+    
+    .w-md-50{
+        width: 50% !important;
+    }
+}
