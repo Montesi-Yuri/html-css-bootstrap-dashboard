@@ -43,7 +43,7 @@
                 
                 </div>
                 
-                <div class="col d-none d-md-block">
+                <div class="col">
                 
                     <div class="input-group">
 
@@ -51,7 +51,7 @@
                             <i class="fa-solid fa-magnifying-glass"></i>
                         </span>
                 
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Prova a cercare: Lezioni di Laravel">
+                        <input type="text" class="form-control" id="FormControlInput1" placeholder="Prova a cercare: Lezioni di Laravel">
 
                     </div>
                 
@@ -162,13 +162,180 @@
                     <!-- MAIN CONTENT HEADER -->
                     <header class="row bg-primary align-items-baseline">
 
-                        <div class="col-12 col-md-3 mt-3 text-lg-center order-md-3 my-2 text-white">
+                        <div class="col-12 col-md-3 mt-3 order-md-3 my-2 text-white">
 
-                            <span>Nuovo studente </span>
+                            <span class="text-lg-center">Nuovo studente </span>
 
-                            <button type="button" class="ms-2 btn btn-primary border-white">
+                            <button type="button" class="ms-2 btn btn-primary border-white text-lg-center" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                                 <i class="fa-solid fa-plus text-white fa-sm"></i>
                             </button>
+
+                            <div class="offcanvas offcanvas-end w-50" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+
+                                <div class="offcanvas-header">
+
+                                  <h5 class="offcanvas-title" id="offcanvasExampleLabel">Inserisci un nuovo studente</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+
+                                </div>
+
+                                <div class="offcanvas-body">
+
+                                    <div class="row">
+
+                                        <div class="col-6">
+
+                                            <div class="mb-3">
+
+                                                <label for="Nameinput" class="form-label">Nome</label>
+
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control" id="Nameinput">
+                                                </div>
+
+                                            </div>
+
+                                            <div class="mb-3">
+                                                
+                                                <label for="Email-input1" class="form-label">Email</label>
+
+                                                <div class="input-group">
+                                                    <span class="input-group-text" id="basic-addon1">@</span>
+                                                    <input type="email" class="form-control" id="Email-input1" aria-label="User-email" aria-describedby="basic-addon1">
+                                                </div>
+                                                
+                                            </div>
+
+                                            <div class="mb-3">
+
+                                                <label for="Email-input2" class="form-label">Indirizzo email</label>
+
+                                                <div class="input-group">
+                                                    <span class="input-group-text" id="basic-addon2">@</span>
+                                                    <input type="email" class="form-control" id="Email-input2" aria-label="User-email" aria-describedby="basic-addon2">
+                                                </div>
+                                                
+                                            </div>
+
+                                        </div>
+
+                                        <div class="col-6">
+
+                                            <div class="mb-3">
+
+                                                <label for="Surnameinput" class="form-label">Cognome</label>
+
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control" id="Surnameinput">
+                                                </div>
+
+                                            </div>
+
+                                            <div class="mb-3">
+
+                                                <label for="Password-input" class="form-label">Password</label>
+
+                                                <div class="input-group">
+                                                    <input type="password" class="form-control" id="Password-input">
+                                                </div>
+
+                                            </div>
+
+                                            <div class="mb-3">
+
+                                                <label for="Password-input2" class="form-label">Password</label>
+
+                                                <div class="input-group">
+                                                    <input type="password" class="form-control" id="Password-input2">
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="col-12">
+
+                                            <div class="mb-3">
+
+                                                <label for="Addressinput" class="form-label">Indirizzo</label>
+
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control" id="Addressinput">
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="col-12 row align-items-end">
+
+                                            <div class="col-6">
+
+                                                <div class="mb-3">
+
+                                                    <label for="Cityinput" class="form-label">Città</label>
+    
+                                                    <div class="input-group">
+                                                        <input type="text" class="form-control" id="Cityinput">
+                                                    </div>
+    
+                                                </div>
+
+                                            </div>
+
+                                            <div class="col-4">
+
+                                                <div class="input-group mb-3">
+
+                                                    <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Scegli ...">
+
+                                                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"></button>
+
+                                                    <ul class="dropdown-menu dropdown-menu-end">
+
+                                                      <li><a class="dropdown-item" href="#">Action</a></li>
+                                                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                                      <li><hr class="dropdown-divider"></li>
+                                                      <li><a class="dropdown-item" href="#">Separated link</a></li>
+
+                                                    </ul>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="col-2">
+
+                                                <div class="mb-3">
+
+                                                    <label for="CAPinput" class="form-label">CAP</label>
+    
+                                                    <div class="input-group">
+                                                        <input type="text" class="form-control" id="CAPinput">
+                                                    </div>
+    
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="col-12">
+
+                                            <div class="input-group mb-3">
+
+                                                <button class="btn btn-outline-secondary" type="button" id="button-addon1">Button</button>
+                                                <input type="text" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                                                
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    
+                                </div>
+                            </div>
 
                         </div>
 
@@ -231,7 +398,7 @@
                                                 Data di inizio
                                             </div>
 
-                                            <div class="col text-center">
+                                            <div class="col text-center d-none d-sm-block">
                                                 ROI
                                             </div>
 
@@ -264,7 +431,7 @@
                                                 15 Feb 2021
                                             </div>
 
-                                            <div class="col text-center">
+                                            <div class="col text-center d-none d-sm-block">
                                                 20%
                                             </div>
 
@@ -303,7 +470,7 @@
                                                 16 Feb 2021
                                             </div>
 
-                                            <div class="col text-center">
+                                            <div class="col text-center d-none d-sm-block">
                                                 20%
                                             </div>
 
@@ -342,7 +509,7 @@
                                                 17 Feb 2021
                                             </div>
 
-                                            <div class="col text-center">
+                                            <div class="col text-center d-none d-sm-block">
                                                 20%
                                             </div>
 
@@ -381,7 +548,7 @@
                                                 18 Feb 2021
                                             </div>
 
-                                            <div class="col text-center">
+                                            <div class="col text-center d-none d-sm-block">
                                                 20%
                                             </div>
 
@@ -420,7 +587,7 @@
                                                 19 Feb 2021
                                             </div>
 
-                                            <div class="col text-center">
+                                            <div class="col text-center d-none d-sm-block">
                                                 20%
                                             </div>
 
@@ -459,7 +626,7 @@
                                                 20 Feb 2021
                                             </div>
 
-                                            <div class="col text-center">
+                                            <div class="col text-center d-none d-sm-block">
                                                 20%
                                             </div>
 
@@ -498,7 +665,7 @@
                                                 21 Feb 2021
                                             </div>
 
-                                            <div class="col text-center">
+                                            <div class="col text-center d-none d-sm-block">
                                                 20%
                                             </div>
 
@@ -537,7 +704,7 @@
                                                 22 Feb 2021
                                             </div>
 
-                                            <div class="col text-center">
+                                            <div class="col text-center d-none d-sm-block">
                                                 20%
                                             </div>
 
@@ -569,9 +736,9 @@
 
                                     <div class="accordion" id="accordionExample">
 
-                                        <div class="accordion-item">
+                                        <div class="accordion-item custom-white-bg">
 
-                                            <h4 class="py-2 px-2">
+                                            <h4 class="py-2 px-3">
                                                 F.A.Q.
                                             </h4>
 
@@ -585,7 +752,7 @@
                                           </h2>
                                           <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                              <strong>clicca sul + in alto a destra nella sezione blu.</strong> 
                                             </div>
                                           </div>
                                         </div>
@@ -598,7 +765,7 @@
                                           </h2>
                                           <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                              <strong>Clicca sull'icona della campanella.</strong>
                                             </div>
                                           </div>
                                         </div>
@@ -611,41 +778,80 @@
                                           </h2>
                                           <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                              <strong>Si, puoi.</strong>
                                             </div>
                                           </div>
                                         </div>
-
                                     </div>
-
                                 </div>
-
-                                
-
-
-                                    
-
-                               
-
-
-
                             </div>
-
-
-
-
-                            
                         </div>
                         
                         <div class="col-lg-4">
 
-                            <div class="container-fluid">
+                            <div class="my-3 border border-light-subtle rounded-1 overflow-hidden">
 
-                                <div class="my-2">right</div>
-                                
-                                <div class="my-2">right</div>
+                                <div class="col-12 border-bottom py-1 mb-1 custom-white-bg px-3">
+                                    <h4>To Do</h4>
+                                </div>
+
+                                <div class="container-fluid">
+
+                                    <ul class="list-group my-3 smaller-font-size fw-semibold">
+
+                                        <li class="list-group-item">
+                                            <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                            <label class="form-check-label" for="firstCheckbox">Kickoff nuove classi</label>
+                                        </li>
+
+                                        <li class="list-group-item">
+                                            <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                            <label class="form-check-label" for="secondCheckbox">Lezione su Bootstrap 5 in classe #75</label>
+                                        </li>
+
+                                        <li class="list-group-item">
+                                            <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                                            <label class="form-check-label" for="thirdCheckbox">Controllare username Git Hub studenti</label>
+                                        </li>
+
+                                    </ul>
+
+                                </div>
 
                             </div>
+                            
+                            <div class="my-2">
+
+                                <div class="card">
+
+                                    <img src="img/stats.jpeg" class="card-img-top w-100" alt="Active-users-stat">
+
+                                    <div class="card-body">
+
+                                        <h5 class="card-text">Utenti attivi</h5>
+
+                                        <p class="card-text">Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
+
+                                    </div>
+                                    
+                                    <ul class="list-group list-group-flush">
+
+                                        <li class="list-group-item">Gennaio: 1200</li>
+                                        <li class="list-group-item">Febbraio: 800</li>
+                                        <li class="list-group-item">Marzo: 1500</li>
+                                        <li class="list-group-item">
+                                            <a href="#" class="text-decoration-underline">Visualizza report approfondito</a>
+                                        </li>
+
+                                    </ul>
+                                      
+
+                                </div>
+
+                            </div>
+
+
+                            
 
                         </div>
 
