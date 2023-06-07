@@ -14,45 +14,13 @@ a{
     height: calc(100vh - 70px);
 }
 
-/*
-    HEADER
-*/
-
-.big-logo-fixed-height{
-    height: 25px;
-}
-
-.small-logo-fixed-height{
-    height: 40px;
-}
-
-
 /* 
-    MAIN
+    UTILITIES
 */
-
-aside ul li:hover{
-    opacity: 0.7;
-    background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 5px;
-}
-
-aside > div > div a:hover{
-    opacity: 0.7;
-    background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 5px;
-}
 
 .icon-sizing{
     width: 20px;
     height: 20px;
-}
-
-.side-custom-bg{
-    background-image: url(../img/sidebar-bg.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: #12293E;
 }
 
 .bg-blue-custom{
@@ -69,6 +37,44 @@ aside > div > div a:hover{
 .custom-white-bg{
     background-color: #F7F7F7;
 }
+
+
+/*
+    HEADER
+*/
+
+.big-logo-fixed-height{
+    height: 25px;
+}
+
+.small-logo-fixed-height{
+    height: 40px;
+}
+
+
+/* 
+    SIDE NAVIGATION BAR
+*/
+
+aside ul li:hover{
+    opacity: 0.7;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+}
+
+#admin:hover{
+    opacity: 0.7;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+}
+
+.side-custom-bg{
+    background-image: url(../img/sidebar-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #12293E;
+}
+
 
 /* 
     RESPONSIVE

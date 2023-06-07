@@ -24,13 +24,14 @@
 
     </head>
 
-    <body class="debug">
+    <body>
 
         <!-- Header -->
         <header class="w-100 position-sticky">
 
             <div class="container-fluid row py-3 justify-content-between align-items-center pe-0">
 
+                <!-- LEFT SIDE HEADER -->
                 <div class="col-auto">
                 
                     <a href="#">
@@ -43,6 +44,7 @@
                 
                 </div>
                 
+                <!-- CENTER HEADER -->
                 <div class="col">
                 
                     <div class="input-group">
@@ -57,6 +59,7 @@
                 
                 </div>
                 
+                <!-- RIGHT SIDE HEADER -->
                 <div class="col-auto d-flex pe-0">
 
                     <div class="d-flex align-items-center text-secondary">
@@ -144,10 +147,14 @@
 
                     <div class="w-100 mb-4">
 
-                        <a class="text-white px-3 py-1" href="#">
-                            <i class="fa-solid fa-gear me-md-2"></i>
-                            <span class="d-none d-md-inline-block"> Admin</span>
-                        </a>
+                        <div id="admin" class=" px-3 py-1">
+
+                            <a class="text-white " href="#">
+                                <i class="fa-solid fa-gear me-md-2"></i>
+                                <span class="d-none d-md-inline-block"> Admin</span>
+                            </a>
+
+                        </div>
 
                     </div>
 
@@ -155,6 +162,7 @@
 
             </aside>
 
+            <!-- MAIN CONTENT -->
             <div class="col h-100 overflow-y-auto">
 
                 <div class="container-fluid h-100 p-0">
@@ -402,7 +410,7 @@
 
                     </header>
 
-                    <!-- MAIN CONTENT -->
+                    <!-- MAIN CONTENT BODY -->
                     <div class="row">
                         
                         <div class="col-lg-8">
@@ -765,16 +773,17 @@
 
                                 <div class="container-fluid p-0">
 
+                                    <!-- ACCORDION -->
                                     <div class="accordion" id="accordionExample">
 
+                                        <!-- ACCORDION HEADER -->
                                         <div class="accordion-item custom-white-bg">
-
                                             <h4 class="py-2 px-3">
                                                 F.A.Q.
                                             </h4>
-
                                         </div>
 
+                                        <!-- ACCORDION ROW -->
                                         <div class="accordion-item">
                                           <h2 class="accordion-header">
                                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -788,6 +797,7 @@
                                           </div>
                                         </div>
 
+                                        <!-- ACCORDION ROW -->
                                         <div class="accordion-item">
                                           <h2 class="accordion-header">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -801,6 +811,7 @@
                                           </div>
                                         </div>
 
+                                        <!-- ACCORDION ROW -->
                                         <div class="accordion-item">
                                           <h2 class="accordion-header">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -813,6 +824,7 @@
                                             </div>
                                           </div>
                                         </div>
+
                                     </div>
                                 </div>
                             </div>
@@ -820,6 +832,7 @@
                         
                         <div class="col-lg-4">
 
+                            <!-- 3rd CARD -->
                             <div class="my-3 border border-light-subtle rounded-1 overflow-hidden">
 
                                 <div class="col-12 border-bottom py-1 mb-1 custom-white-bg px-3">
@@ -851,6 +864,7 @@
 
                             </div>
                             
+                            <!-- 4th CARD -->
                             <div class="my-2">
 
                                 <div class="card">
@@ -873,36 +887,18 @@
                                         <li class="list-group-item">
                                             <a href="#" class="text-decoration-underline">Visualizza report approfondito</a>
                                         </li>
-
                                     </ul>
-                                      
-
                                 </div>
-
                             </div>
-
-
-                            
-
                         </div>
 
                     </div>
 
-
                 </div>
 
             </div>
-
-
            
         </main>
-
-
-
-
-
-
-
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     </body>
